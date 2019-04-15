@@ -9,10 +9,10 @@
     "ahead": 1
   },
   "arch": {
-    "neurons": 32,
+    "neurons": 64,
     "rnn": "LSTM",
-    "drop": 0.0,
-    "nlayers": 1,
+    "drop": 0.5,
+    "nlayers": 2,
     "activation": "tanh",
     "activation_r": "hard_sigmoid"
   },

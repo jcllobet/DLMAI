@@ -7,11 +7,11 @@ WindPrediction
 :Description: WindPrediction
 
 :Authors: bejar
-    
 
-:Version: 
 
-:Created on: 06/09/2017 9:47 
+:Version:
+
+:Created on: 06/09/2017 9:47
 
 """
 
@@ -284,7 +284,7 @@ if __name__ == '__main__':
     resfile.close()
 
     # Deletes the model file
-    try:
-        os.remove(modfile)
-    except OSError:
-        pass
+    #try:
+    #    os.remove(modfile)
+    #except OSError:
+    #    pass
